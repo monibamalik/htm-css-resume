@@ -1,0 +1,158 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  /* margin: 0; */
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff;
+  color: #000;
+}
+
+.container {
+  display: flex;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px;
+}
+
+.my-img img {
+  width: 12rem;
+  height: 12rem;
+  object-fit: cover;
+  border: 0.2px solid #fff;
+  border-radius: 50%;
+}
+
+.m-con {
+  padding: 0.5rem 1rem;
+  background-color: #2f3a4f;
+  color: #fff;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.m-con p{
+  margin: 0.2rem 0;
+}
+
+.stu-line {
+  width: 10rem;
+  margin: 0;
+  margin-bottom: 0.7rem;
+}
+
+.separator {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.sidebar {
+  width: 23%;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.main {
+  width: 77%;
+  box-sizing: border-box;
+}
+
+h1 {
+  margin: 0;
+  font-size: 28px;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 24px;
+  color: #2f3a4f;
+  border-bottom: 1px solid #2f3a4f;
+  padding-bottom: 5px;
+  margin-top: 30px;
+}
+
+.section {
+  margin-top: 20px;
+  font-family: 'Noto Sans', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.no-st-li{
+  list-style: none;
+}
+
+.skills button {
+  margin: 0.2rem;
+  padding: 0.5rem;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #a6aab2;
+}
+
+
+.contact,
+.skills,
+.languages,
+.interests {
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.contact a {
+  color: #000;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 5px;
+}
+
+ul {
+  padding-left: 20px;
+  margin: 0;
+}
+
+li {
+  margin-bottom: 6px;
+}
+
+
+.edu,
+.project {
+  margin-bottom: 15px;
+}
+
+
+.edu-title,
+.project-title {
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.date-location {
+  font-size: 13px;
+  color: #666;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+a {
+  word-break: break-all;
+}
+
+.last-li {
+  list-style-type: none;
+  padding: 0;
+}
+
+.last-li li{
+  margin-top: 0.5rem;
+  color:#000;
+  border: 2px solid #a6aab2;
+  border-radius: 6px;
+  padding: 0.5rem;
+}
